@@ -50,10 +50,9 @@ loadstring(game:HttpGet(LoaderUrl))()
  })
 
  local Button = Tab:CreateButton({
-    Name = "Infnity Dangeuon (NEW) ",
+    Name = "Infinity Dangeuon (NEW)",
     Callback = function()
-      getgenv().fastload = false
-loadstring(game:HttpGetAsync(("https://pastebinp.com/raw/AhnX80SH")))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/krnl', true))()
     -- The function that takes place when the button is pressed
     end,
  })
